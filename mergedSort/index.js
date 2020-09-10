@@ -14,9 +14,11 @@ function mergedSort(sortedArr1, sortedArr2) {
   }
   while (sortedArr1[pointer1]) {
     result_arr.push(sortedArr1[pointer1]);
+    pointer1++;
   }
   while (sortedArr2[pointer2]) {
     result_arr.push(sortedArr2[pointer2]);
+    pointer2++;
   }
 
   return result_arr;
