@@ -15,3 +15,5 @@ function stringPattern(text, pattern) {
 
 console.log(stringPattern("lolol", "lol"));
 console.log(stringPattern("chineduollo", "lol"));
+
+// time omplexity (O(n * m))

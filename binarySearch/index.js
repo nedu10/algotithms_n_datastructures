@@ -7,6 +7,7 @@ function binarySearch(arr, value) {
   while (left <= right) {
     // console.log("times");
     let mid_value = Math.floor((left + right) / 2);
+    // console.log("mid >> ", mid_value);
     if (value == arr[mid_value]) {
       return mid_value;
     } else if (arr[mid_value] < value) {
@@ -24,6 +25,7 @@ console.log(
     19
   )
 );
+console.log(binarySearch([1, 2, 3, 4, 5], 2));
 
 // time complexity O(log2(n))
 // space complexity O(1)
